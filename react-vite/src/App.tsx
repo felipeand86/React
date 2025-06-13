@@ -1,4 +1,7 @@
 import './App.css'
+import { Navbar } from './components/nav'
+import { Section } from './components/sec'
+import { Primeirocomponente } from './components/pag01'
 
 function App() {
 
@@ -6,38 +9,9 @@ function App() {
     <>
       <div>
         <main>
-          <nav>
-              <ul>
-                <li>Itens</li>
-              </ul>   
-          </nav>
-          <section>
-            <p>Sessão 1</p>
-          </section>
-          <section>
-            <p>Sessão 2</p>
-          </section>
-          <section>
-            <p>Sessão 3</p>
-          </section>
-          <section>
-            <p>Sessão 4</p>
-          </section>
-          <section>
-            <p>Sessão 5</p>
-          </section>
-          <section>
-            <p>Sessão 6</p>
-          </section>
-          <section>
-            <p>Sessão 7</p>
-          </section>
-          <section>
-            <p>Sessão 8</p>
-          </section>
-          <section>
-            <p>Sessão 9</p>
-          </section>
+          <Navbar/>
+          <Section/>
+          <Primeirocomponente/>
         </main>
       </div>
     </>
