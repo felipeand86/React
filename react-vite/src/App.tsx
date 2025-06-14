@@ -1,21 +1,12 @@
-import './App.css'
-import { Navbar } from './components/nav'
-import { Section } from './components/sec'
-import { Primeirocomponente } from './components/pag01'
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <div>
-        <main>
-          <Navbar/>
-          <Section/>
-          <Primeirocomponente/>
-        </main>
-      </div>
+      <h1>Hello World do React</h1>
+      <p>Primeiro paragrafo</p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
