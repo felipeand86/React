@@ -4,7 +4,7 @@ import { UmComponent } from "./components/UmComponent";
 import { TemplateExpressions } from "./components/TemplateExpressions";
 import { OutroComp } from "./components/OutroComp";
 import { Events } from "./components/Events";
-import { Challenge } from "./components/Challenge";
+import Challenge from "./components/Challenge";
 
 
 function App() {
