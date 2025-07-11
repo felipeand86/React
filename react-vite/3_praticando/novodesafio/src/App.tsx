@@ -2,6 +2,7 @@ import psgp from "./assets/psgp.jpg"
 import ManageData from './components/ManageData'
 import ListNome from './components/ListNome'
 import './App.css'
+import Condicional from "./components/Condicional"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <ManageData/>
       <ListNome />
+      <Condicional />
     </>
   )
 }
