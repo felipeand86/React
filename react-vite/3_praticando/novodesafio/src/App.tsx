@@ -3,8 +3,12 @@ import ManageData from './components/ManageData'
 import ListNome from './components/ListNome'
 import './App.css'
 import Condicional from "./components/Condicional"
+import ShowUserName from "./components/ShowUserName"
+import { useState } from "react"
 
 function App() {
+  const name="Asdrobald"
+  const [userName] = useState("Maria")
   return (
     <>
       <h1>Avançando em React</h1>
@@ -19,6 +23,7 @@ function App() {
       <ManageData/>
       <ListNome />
       <Condicional />
+      <ShowUserName name={userName}/>
     </>
   )
 }
