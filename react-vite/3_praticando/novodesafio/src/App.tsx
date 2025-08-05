@@ -4,10 +4,10 @@ import ListNome from './components/ListNome'
 import './App.css'
 import Condicional from "./components/Condicional"
 import ShowUserName from "./components/ShowUserName"
+import CarDetails from "./components/CarDetails"
 import { useState } from "react"
 
 function App() {
-  const name="Asdrobald"
   const [userName] = useState("Maria")
   return (
     <>
@@ -24,6 +24,7 @@ function App() {
       <ListNome />
       <Condicional />
       <ShowUserName name={userName}/>
+      <CarDetails brand="Vw" km={100000} color="Azul" />
     </>
   )
 }
