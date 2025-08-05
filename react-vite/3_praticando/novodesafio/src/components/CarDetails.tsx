@@ -1,4 +1,4 @@
-const CarDetails = ( props ) => {
+const CarDetails = ( props: any ) => {
   return (
     <div>
         <h2>Detalhes do Carro</h2>
