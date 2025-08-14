@@ -24,7 +24,10 @@ function App() {
       <ListNome />
       <Condicional />
       <ShowUserName name={userName}/>
-      <CarDetails brand="Vw" km={100000} color="Azul" />
+      <CarDetails brand="Vw" km={100000} color="Azul" newCar={false}/>
+      {/* reaproveitando */}
+      <CarDetails brand="Ford" km={0} color="Vermelho" newCar={true}/>
+      <CarDetails brand="Fiat" km={4500} color="Branco" newCar={false}/>
     </>
   )
 }
